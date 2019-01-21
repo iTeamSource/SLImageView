@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2018年 wsl. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ve-ag-HPi">
+                                <rect key="frame" x="0.0" y="543" width="600" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="1PZ-yW-PGX"/>
+                                    <constraint firstAttribute="width" constant="375" id="3n1-Wx-9aJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SLImageView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFu-09-A26">
+                                <rect key="frame" x="0.0" y="289" width="600" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="NEG-8b-cxV"/>
+                                    <constraint firstAttribute="width" constant="375" id="gOA-NQ-Jdt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WFu-09-A26" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0Eo-hj-3UV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4ve-ag-HPi" secondAttribute="bottom" constant="36" id="Emn-7t-udN"/>
+                            <constraint firstItem="WFu-09-A26" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="F77-Ni-5LT"/>
+                            <constraint firstItem="4ve-ag-HPi" firstAttribute="top" secondItem="WFu-09-A26" secondAttribute="bottom" constant="232" id="HMP-Dj-Dzs"/>
+                            <constraint firstItem="4ve-ag-HPi" firstAttribute="top" secondItem="WFu-09-A26" secondAttribute="bottom" constant="232" id="VAw-x9-vRx"/>
+                            <constraint firstItem="4ve-ag-HPi" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="l6Y-uH-O4d"/>
+                            <constraint firstItem="4ve-ag-HPi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lKK-Ms-62d"/>
+                            <constraint firstItem="WFu-09-A26" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="269" id="voJ-pI-67K"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>
